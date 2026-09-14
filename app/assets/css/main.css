@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+/* assets/css/main.css */
+@theme {
+  --color-bg:      #F7F3EA;  /* crema cálida */
+  --color-ink:     #141414;  /* casi negro */
+  --color-primary: #2E5DA8;  /* azul profundo */
+  --color-accent:  #D94F2B;  /* terracota */
+  --color-yellow:  #E5B84A;  /* mostaza */
+  --color-muted:   #8A8578;  /* gris cálido */
+}
