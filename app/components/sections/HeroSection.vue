@@ -5,19 +5,19 @@
     class="relative min-h-screen flex flex-col justify-between px-6 md:px-12 pt-32 pb-10"
   >
     <div class="flex-1 flex flex-col justify-center">
-      <p class="text-[11px] tracking-[0.4em] opacity-50 mb-10 md:mb-14">
+      <p class="text-[11px] tracking-[0.4em] text-muted mb-10 md:mb-14">
         MI PORTAFOLIO
       </p>
 
       <h1
-        class="text-[20vw] md:text-[13vw] leading-[0.82] font-black tracking-[-0.05em] uppercase"
+        class="text-[20vw] md:text-[13vw] leading-[0.82] font-black tracking-[-0.05em] uppercase text-ink"
       >
         Diego<br />
         <span class="italic font-light">Nuzzo</span>
       </h1>
 
       <p
-        class="mt-10 md:mt-14 max-w-md text-sm md:text-base opacity-60 leading-relaxed tracking-wide"
+        class="mt-10 md:mt-14 max-w-md text-sm md:text-base text-muted leading-relaxed tracking-wide"
       >
         TSU en Informática enfocado en backend, construyo soluciones con Ruby,
         Go, Java y Python, y me apoyo en Nuxt, Vue y TypeScript cuando el
@@ -32,27 +32,27 @@
         href="https://github.com/nuzzodev"
         target="_blank"
         rel="noopener noreferrer"
-        class="opacity-50 hover:opacity-100 transition-opacity"
+        class="text-muted hover:text-primary transition-colors duration-300"
         >GITHUB ↗</a
       >
       <a
         href="https://linkedin.com/in/nuzzodev"
         target="_blank"
         rel="noopener noreferrer"
-        class="opacity-50 hover:opacity-100 transition-opacity"
+        class="text-muted hover:text-primary transition-colors duration-300"
         >LINKEDIN ↗</a
       >
       <a
         href="/cv.pdf"
         target="_blank"
         rel="noopener noreferrer"
-        class="opacity-50 hover:opacity-100 transition-opacity"
+        class="text-muted hover:text-primary transition-colors duration-300"
         >CURRICULUM ↗</a
       >
     </div>
 
     <div
-      class="flex items-end justify-between text-[11px] tracking-[0.35em] opacity-50 pt-10"
+      class="flex items-end justify-between text-[11px] tracking-[0.35em] text-muted pt-10"
     >
       <span>SCROLL ↓</span>
       <span class="hidden md:block">BACKEND DEVELOPER</span>

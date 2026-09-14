@@ -1,12 +1,25 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
 
-/* assets/css/main.css */
 @theme {
-  --color-bg:      #F7F3EA;  /* crema cálida */
-  --color-ink:     #141414;  /* casi negro */
-  --color-primary: #2E5DA8;  /* azul profundo */
-  --color-accent:  #D94F2B;  /* terracota */
-  --color-yellow:  #E5B84A;  /* mostaza */
-  --color-muted:   #8A8578;  /* gris cálido */
+  /* Fondos */
+  --color-bg:       #0F0A1A;  /* negro-morado profundo (base) */
+  --color-bg-soft:  #1A1230;  /* morado oscuro (superficies, header pill) */
+
+  /* Texto */
+  --color-ink:      #F5F1E8;  /* blanco roto (texto principal) */
+  --color-muted:    #A78BC7;  /* lila apagado (texto secundario) */
+
+  /* Acentos */
+  --color-primary:  #FF6B1A;  /* naranja eléctrico Graduation */
+  --color-accent:   #F5C518;  /* amarillo Graduation (uso puntual) */
+
+  /* Bordes y detalles */
+  --color-border:   #2A1F45;  /* bordes sutiles morados */
+}
+
+/* Configuración del fondo global */
+body {
+  background-color: var(--color-bg);
+  color: var(--color-ink);
 }

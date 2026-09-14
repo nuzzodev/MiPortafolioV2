@@ -2,12 +2,12 @@
 <template>
   <section
     id="contact"
-    class="px-6 md:px-12 py-32 md:py-48 bg-[#EDE8DC] text-[#0B0B0B]"
+    class="px-6 md:px-12 py-32 md:py-48 bg-bg-soft text-ink"
   >
-    <UiSectionLabel number="04" text="CONTACTO" class="mb-12" />
+    <UiSectionLabel number="04" text="CONTACTO" class="mb-12 text-muted" />
 
     <h2
-      class="text-[16vw] md:text-[9vw] leading-[0.85] font-black tracking-[-0.05em] uppercase"
+      class="text-[16vw] md:text-[9vw] leading-[0.85] font-black tracking-[-0.05em] uppercase text-ink"
     >
       Hablemos<br />
       <span class="italic font-light">en serio</span><br />
@@ -19,22 +19,22 @@
     >
       <div class="space-y-8">
         <div>
-          <p class="text-[11px] tracking-[0.3em] opacity-50 mb-3">EMAIL</p>
+          <p class="text-[11px] tracking-[0.3em] text-muted mb-3">EMAIL</p>
           <a
             href="mailto:nuzzodev@gmail.com"
-            class="text-xl md:text-3xl font-medium hover:opacity-40 transition-opacity"
+            class="text-xl md:text-3xl font-medium text-ink hover:text-primary transition-colors duration-300"
           >
             nuzzodev@gmail.com
           </a>
         </div>
 
         <div>
-          <p class="text-[11px] tracking-[0.3em] opacity-50 mb-3">LINKEDIN</p>
+          <p class="text-[11px] tracking-[0.3em] text-muted mb-3">LINKEDIN</p>
           <a
             href="https://linkedin.com/in/nuzzodev"
             target="_blank"
             rel="noopener noreferrer"
-            class="text-xl md:text-3xl font-medium hover:opacity-40 transition-opacity"
+            class="text-xl md:text-3xl font-medium text-ink hover:text-primary transition-colors duration-300"
           >
             /in/nuzzodev
           </a>
@@ -44,7 +44,7 @@
       <div class="flex flex-wrap gap-3">
         <UButton
           size="xl"
-          class="!rounded-none !bg-[#0B0B0B] !text-[#EDE8DC] !px-8 !py-4 !text-[11px] !tracking-[0.35em] !font-medium hover:!bg-[#0B0B0B]/85"
+          class="!rounded-none !bg-primary !text-bg !px-8 !py-4 !text-[11px] !tracking-[0.35em] !font-medium hover:!bg-primary/90 transition-colors duration-300"
           to="mailto:nuzzodev@gmail.com"
         >
           ESCRIBIRME
@@ -52,7 +52,7 @@
         <UButton
           size="xl"
           variant="outline"
-          class="!rounded-none !border-[#0B0B0B] !text-[#0B0B0B] !px-8 !py-4 !text-[11px] !tracking-[0.35em] !font-medium hover:!bg-[#0B0B0B] hover:!text-[#EDE8DC]"
+          class="!rounded-none !border-border !text-ink !px-8 !py-4 !text-[11px] !tracking-[0.35em] !font-medium hover:!bg-border/40 hover:!text-primary transition-colors duration-300"
           to="/cv.pdf"
           target="_blank"
         >

@@ -1,5 +1,7 @@
 <!-- pages/index.vue -->
 <script setup lang="ts">
+import StackSection from "~/components/sections/StackSection.vue";
+
 useHead({
   title: "Diego Nuzzo — Portfolio",
   link: [
@@ -10,13 +12,12 @@ useHead({
       href: "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap",
     },
   ],
-  bodyAttrs: { class: "bg-[#0B0B0B]" },
 });
 </script>
 
 <template>
   <div
-    class="min-h-screen bg-[#0B0B0B] text-[#EDE8DC] antialiased overflow-x-hidden"
+    class="min-h-screen antialiased overflow-x-hidden"
     style="font-family: &quot;Inter&quot;, system-ui, sans-serif"
   >
     <LayoutSiteHeader />
@@ -24,6 +25,7 @@ useHead({
     <SectionsHeroSection />
     <SectionsMarqueeSection />
     <SectionsManifestoSection />
+    <StackSection />
     <SectionsWorkSection />
     <SectionsServicesSection />
     <SectionsContactSection />
@@ -35,10 +37,6 @@ useHead({
 <style>
 html {
   scroll-behavior: smooth;
-}
-
-body {
-  background-color: #0b0b0b;
 }
 
 @keyframes marquee {

@@ -4,7 +4,7 @@ const { services } = usePortfolioData();
 </script>
 
 <template>
-  <section id="services" class="px-6 md:px-12 pb-32 md:pb-48">
+  <section id="services" class="px-6 md:px-12 pb-32 md:pb-48 bg-bg text-ink">
     <div class="grid md:grid-cols-12 gap-12 md:gap-16">
       <div class="md:col-span-3">
         <UiSectionLabel number="03" text="QUÉ HAGO" />
