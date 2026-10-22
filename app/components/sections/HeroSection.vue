@@ -33,21 +33,23 @@
         target="_blank"
         rel="noopener noreferrer"
         class="text-muted hover:text-primary transition-colors duration-300"
-        >GITHUB ↗</a
+      >
+        <UIcon name="i-simple-icons-github" class="size-4" />
+        GITHUB ↗</a
       >
       <a
         href="https://linkedin.com/in/nuzzodev"
         target="_blank"
         rel="noopener noreferrer"
         class="text-muted hover:text-primary transition-colors duration-300"
-        >LINKEDIN ↗</a
+        ><UIcon name="i-simple-icons-linkedin" class="size-4" /> LINKEDIN ↗</a
       >
       <a
         href="/cv.pdf"
         target="_blank"
         rel="noopener noreferrer"
         class="text-muted hover:text-primary transition-colors duration-300"
-        >CURRICULUM ↗</a
+        ><UIcon name="i-lucide-scroll-text" class="size-4" /> CURRICULUM ↗</a
       >
     </div>
 

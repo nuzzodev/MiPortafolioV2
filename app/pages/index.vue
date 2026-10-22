@@ -16,10 +16,7 @@ useHead({
 </script>
 
 <template>
-  <div
-    class="min-h-screen antialiased overflow-x-hidden"
-    style="font-family: &quot;Inter&quot;, system-ui, sans-serif"
-  >
+  <div class="min-h-screen antialiased overflow-x-hidden">
     <LayoutSiteHeader />
 
     <SectionsHeroSection />

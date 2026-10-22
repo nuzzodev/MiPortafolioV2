@@ -30,8 +30,8 @@ export const usePortfolioData = () => {
   ];
 
   const marqueeWords = [
-    "ENFOQUE BACKEND",
-    "RUBY · GO · JAVA · PYTHON",
+    "ENFOQUE FULLSTACK",
+    "RUBY · JAVASCRIPT · JAVA · FLUTTER",
     "SIMPLE POR DISEÑO",
     "HECHO PARA DURAR",
   ];
@@ -57,31 +57,21 @@ export const usePortfolioData = () => {
     },
     {
       id: "003",
-      title: "Ajeate",
-      category: "SISTEMA DE PEDIDOS Y VENTAS",
-      role: "FULLSTACK",
-      tags: ["Ruby on Rails", "Vue Js", "PostgreSQL"],
-      link: "https://github.com/nuzzodev",
-      year: "2025",
-    },
-    {
-      id: "004",
-      title: "Monolith Core",
-      category: "SYSTEM ARCHITECTURE",
+      title: "BonAPItit",
+      category: "API DE PEDIDOS Y VENTAS",
       role: "BACKEND",
-      tags: ["Java", "Spring Boot", "SQL Server"],
+      tags: ["Ruby on Rails", "PostgreSQL"],
       link: "https://github.com/nuzzodev",
-      year: "2025",
-    },
+      year: "2026",
+    }
   ];
 
   const services = [
     "Arquitectura de Software",
-    "Desarrollo Backend",
+    "Desarrollo Fullstack",
     "Diseño de Bases de Datos",
     "Refactorización de Sistemas",
     "Integración de Servicios",
-    "Frontend con Nuxt & Vue",
   ];
 
   const stackGroups: StackGroup[] = [
@@ -90,10 +80,10 @@ export const usePortfolioData = () => {
       icon: "i-heroicons-cpu-chip-20-solid",
       items: [
         { name: "Ruby on Rails", icon: "i-simple-icons-rubyonrails", featured: true },
-        { name: "Go", icon: "i-simple-icons-go", featured: true },
+        { name: "PostgreSQL", icon: "i-simple-icons-postgresql", featured: true },
         { name: "Java", icon: "i-simple-icons-oracle" },
         { name: "Python", icon: "i-simple-icons-python" },
-        { name: "PostgreSQL", icon: "i-simple-icons-postgresql", featured: true },
+        
         { name: "SQL Server", icon: "i-simple-icons-microsoftsqlserver" },
       ],
     },
@@ -115,7 +105,7 @@ export const usePortfolioData = () => {
       items: [
         { name: "Git", icon: "i-simple-icons-git", featured: true },
         { name: "Github", icon: "i-simple-icons-github" },
-        { name: "Bitbucket", icon: "i-simple-icons-bitbucket" },
+        { name: "Opencode", icon: "i-simple-icons-opencode" },
         { name: "Trello", icon: "i-simple-icons-trello" },
         { name: "VS Code", icon: "i-simple-icons-visualstudiocode" },
         { name: "Zed", icon: "i-simple-icons-zedindustries" },
